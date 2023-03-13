@@ -24,7 +24,7 @@ variable "test" {
 }
 
 resource "random_password" "password" {
-  length = 26
+  length = 12
 }
 
 output "sensitive_output" {
