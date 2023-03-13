@@ -76,7 +76,7 @@ resource "null_resource" "nested_resource" {
 }
 
 resource "local_file" "example_file" {
-  content  = "This is some example content"
+  content  = "This is some extended example content"
   filename = "example.txt"
 }
 
