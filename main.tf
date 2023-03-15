@@ -19,7 +19,7 @@ variable "test" {
 
   default = {
     "foo"     = "bar"
-    "this_is" = "unsanitized"
+    "this_is" = "unsanitized1234"
   }
 }
 
