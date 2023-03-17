@@ -61,7 +61,7 @@ output "non_sensitive_variable_output" {
 
 resource "random_integer" "random_id" {
   min = 100
-  max = 999
+  max = 9999
 }
 
 resource "random_string" "random_name" {
