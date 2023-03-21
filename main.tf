@@ -38,7 +38,7 @@ output "non_sensitive_string_output" {
 }
 
 output "non_sensitive_number_output" {
-  value     = 12
+  value     = "abc"
   sensitive = false
 }
 
