@@ -42,12 +42,6 @@ output "non_sensitive_number_output" {
   sensitive = false
 }
 
-output "second_non_sensitive_number_output" {
-  value     = "abc"
-  sensitive = false
-}
-
-
 output "non_sensitive_map_output" {
   value     = var.test
   sensitive = false
