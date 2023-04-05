@@ -88,21 +88,6 @@ resource "null_resource" "file_permission" {
   }
 }
 
-variable "with_optional_attribute" {
-  type = object({
-    b = optional(bool)        # an optional attribute with default value
-    c = optional(number, 127) # an optional attribute with default value
-  })
-  default = {
-    b = false
-    c = 1
-  }
-}
-
-output "optional_attribute_test" {
-  value = var.with_optional_attribute
-}
-
 output "nested_resources" {
   value = {
     random_integer = {
