@@ -125,4 +125,5 @@ output "example_output" {
     { a = "randomstring" }
   ]
   description = "An array of objects containing hardcoded values."
+  sensitive = true
 }
