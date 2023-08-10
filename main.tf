@@ -116,3 +116,13 @@ output "nested_resources" {
     }
   }
 }
+
+output "example_output" {
+  value = [
+    { a = "randomstring" },
+    { a = "randomstring" },
+    { a = "randomstring" },
+    { a = "randomstring" }
+  ]
+  description = "An array of objects containing hardcoded values."
+}
